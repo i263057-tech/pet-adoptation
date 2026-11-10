@@ -2,19 +2,20 @@
 nav {
     margin-top: 15px;
     padding: 12px;
-    background-color: #333;
+    background-color: #ffeb3b;
     text-align: center;
 }
 
 nav a {
-    color: white;
+    color: #333;
     text-decoration: none;
     margin: 0 15px;
     font-weight: bold;
 }
 
 nav a:hover {
-    color: #ffeb3b;
+    color: #b8860b;
+    text-decoration: underline;
 }
 
 /* Main content */
@@ -22,6 +23,7 @@ nav a:hover {
     width: 85%;
     margin: 30px auto;
     padding: 20px;
+    background-color: white;
 }
 
 /* Pet cards */
@@ -33,8 +35,8 @@ nav a:hover {
 }
 
 .pet-card {
-    background-color: #fff9c4;
-    border: 1px solid #ddd;
+    background-color: #fffde7;
+    border: 2px solid #ffeb3b;
     border-radius: 10px;
     padding: 20px;
     width: 200px;
@@ -43,6 +45,7 @@ nav a:hover {
 
 .pet-card button {
     background-color: #ffeb3b;
+    color: #333;
     border: none;
     padding: 10px 15px;
     cursor: pointer;
@@ -55,8 +58,8 @@ nav a:hover {
 
 /* Footer */
 footer {
-    background-color: #333;
-    color: white;
+    background-color: #ffeb3b;
+    color: #333;
     text-align: center;
     padding: 15px;
     margin-top: 30px;
