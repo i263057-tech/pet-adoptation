@@ -64,3 +64,16 @@ footer {
     padding: 15px;
     margin-top: 30px;
 }
+.home-pet-img {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.pet-card {
+    transition: transform 0.2s ease;
+}
+
+.pet-card:hover {
+    transform: translateY(-5px);
+}
