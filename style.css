@@ -1,0 +1,135 @@
+/* 
+  Name: Sufyan Ali
+  Roll Number: 261-3057
+  Section: [Your Section]
+  Lab 11: Styling for Pet Shelter & Adoption
+*/
+
+/* Reset and Global Styles */
+body {
+    background-color: #ffffff; /* White background */
+    color: #333333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffeb3b; /* Vibrant Yellow */
+    color: #111111;
+    text-align: center;
+    padding: 25px 15px;
+    border-bottom: 3px solid #fbc02d;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+}
+
+header .tagline {
+    margin-top: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #444444;
+}
+
+/* Main Container Layout */
+.container {
+    width: 85%;
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+/* Headings */
+h2 {
+    color: #222222;
+    border-bottom: 2px solid #ffeb3b;
+    padding-bottom: 5px;
+    display: inline-block;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    padding: 12px;
+    text-align: left;
+    vertical-align: middle;
+}
+
+th {
+    background-color: #fff59d; /* Soft Yellow Header */
+    color: #111111;
+    font-size: 1.05rem;
+}
+
+/* Pet Profile Layout Inside Table Cell */
+.pet-profile {
+    width: 130px;
+}
+
+.pet-name {
+    display: block;
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+
+/* Pet Thumbnail Images */
+.pet-thumb {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    border: 2px solid #333333;
+    border-radius: 6px;
+    display: block;
+}
+
+/* Button Styling */
+.adopt-btn {
+    background-color: #ffeb3b; /* Yellow background */
+    color: #000000;
+    font-weight: bold;
+    font-size: 0.95rem;
+    padding: 8px 16px;
+    border: 1px solid #111111;
+    border-radius: 18px; /* Rounded pill style matching sketch */
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.adopt-btn:hover {
+    background-color: #fbc02d; /* Darker Yellow on hover */
+    transform: translateY(-2px);
+}
+
+/* About Us Section Styling */
+.about-section {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #fffde7; /* Very Light Yellow Box tint */
+    border-left: 4px solid #ffeb3b;
+    border-radius: 4px;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    color: #666666;
+    font-size: 0.85rem;
+    margin-top: 40px;
+    border-top: 1px solid #eeeeee;
+}

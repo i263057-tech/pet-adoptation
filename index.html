@@ -1,0 +1,104 @@
+<!-- 
+  Name: Sufyan Ali
+  Roll Number: 261-3057
+  Section: [Your Section]
+  Lab 11: Pet Shelter & Adoption Webpage
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Shelter & Adoption</title>
+    <!-- Linking external CSS stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>PET SHELTER & ADOPTATION</h1>
+        <p class="tagline">No Need to Buy, Just Adopt</p>
+    </header>
+
+    <!-- Main Content Container -->
+    <main class="container">
+
+        <!-- Table Section: Our Beloved Pets -->
+        <section class="pets-section">
+            <h2>Our Beloved Pets</h2>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>Pet Info</th>
+                        <th>Description</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Pet 1: Bob -->
+                    <tr>
+                        <td class="pet-profile">
+                            <span class="pet-name">Bob</span>
+                            <img src="images/bob.jpg" alt="Bob the Dog" class="pet-thumb">
+                        </td>
+                        <td>Most Loyal</td>
+                        <td>
+                            <button class="adopt-btn" onclick="adoptPet('Bob')">Adopt Now &rarr;</button>
+                        </td>
+                    </tr>
+
+                    <!-- Pet 2: Luna -->
+                    <tr>
+                        <td class="pet-profile">
+                            <span class="pet-name">Luna</span>
+                            <img src="images/luna.jpg" alt="Luna the Cat" class="pet-thumb">
+                        </td>
+                        <td>Looks like Cutie Pie</td>
+                        <td>
+                            <button class="adopt-btn" onclick="adoptPet('Luna')">Adopt Now &rarr;</button>
+                        </td>
+                    </tr>
+
+                    <!-- Pet 3: Jasi -->
+                    <tr>
+                        <td class="pet-profile">
+                            <span class="pet-name">Jasi</span>
+                            <img src="images/jasi.jpg" alt="Jasi the Black Cat" class="pet-thumb">
+                        </td>
+                        <td>Black Beauty</td>
+                        <td>
+                            <button class="adopt-btn" onclick="adoptPet('Jasi')">Adopt Now &rarr;</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- About Us Section -->
+        <section class="about-section">
+            <h2>About Us</h2>
+            <p>Welcome to Pet Shelter & Adoptation. We are dedicated to rescuing pets, providing them with proper healthcare, and finding them loving forever homes. Choose adoption today and save a life!</p>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2026 Pet Shelter & Adoptation. All rights reserved.</p>
+    </footer>
+
+    <!-- Task 3: JavaScript Interactivity -->
+    <script>
+        function adoptPet(petName) {
+            // Log message to browser developer console
+            console.log("Adopt button clicked for pet: " + petName);
+            // Display alert window pop-up to user
+            window.alert("Thank you for choosing to adopt " + petName + "! Our shelter team will contact you soon.");
+        }
+    </script>
+
+</body>
+</html>
